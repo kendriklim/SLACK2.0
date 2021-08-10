@@ -25,10 +25,10 @@ function Sidebar() {
     <SidebarContainer>
       <SidebarHeader>
         <SidebarInfo>
-          <h2>MeowMeow Area</h2>
+          <h2>Meow Zone</h2>
           <h3>
             <FiberManualRecordIcon />
-            Meow Name
+            {user.displayName}
           </h3>
         </SidebarInfo>
         <CreateIcon />
